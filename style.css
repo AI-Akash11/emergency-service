@@ -2,3 +2,8 @@
 .roboto{
     font-family: "Roboto", sans-serif;
 }
+
+button:hover{
+    opacity: .7;
+    transition: .2s;
+}
