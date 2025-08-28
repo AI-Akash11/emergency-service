@@ -59,9 +59,9 @@
         </p>
 </section>
 <!-- cards section -->
-    <div class="cards-history-container bg-[#41FF6B10] p-5 md:p-16 grid grid-cols-8 md:grid-cols-4 gap-4 md:gap-8">
+    <div class="cards-history-container bg-[#41FF6B10] p-5 md:p-16 flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:gap-8">
         <!-- cards container -->
-        <section class="cards-container col-span-5 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+        <section class="cards-container md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
 
             <!-- card-1 -->
             <div class="cards p-4 md:p-8 bg-white rounded-xl shadow-lg">
@@ -236,10 +236,10 @@
             </div>
         </section>
         <!-- call history section -->
-        <aside class="call-history-container bg-white shadow-lg p-6 rounded-xl col-span-3 md:col-span-1">
-            <div class="flex justify-between flex-col md:flex-row gap-2 items-center mb-4">
-                <p class="text-sm md:text-xl font-semibold"><i class="fa-regular fa-clock"></i> Call History</p>
-                <button class="btn bg-green-500 rounded-full text-white font-normal text-xs md:text-base px-6 md:px-8 py-1 md:py-4">Clear</button>
+        <aside class="call-history-container min-h-36 bg-white shadow-lg p-6 rounded-xl md:col-span-1">
+            <div class="flex justify-between gap-2 items-center mb-4">
+                <p class="text-xl font-semibold"><i class="fa-regular fa-clock"></i> Call History</p>
+                <button class="btn bg-green-500 rounded-full text-white font-normal text-base px-8 py-4">Clear</button>
             </div>
         </aside>
     </div>
