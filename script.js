@@ -10,6 +10,7 @@ document.addEventListener("click", function (e) {
     const number = card.querySelector(".copy-number").innerText;
 
     navigator.clipboard.writeText(number).then(() => {
+       alert(`Copied ${number} to clipboard!`);
     });
   }
 });
